@@ -1,0 +1,41 @@
+[log]
+type = 0
+time = 2010-09-12 02:53:41.015
+host = http://localhost:8091/Admin/about/about.aspx?lang=1
+description = System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Eisp.Web.Admin.About.About.EnInfoBind(String lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 56
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 22
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=46X4X; CKFinder_Path=Images%3A%2F%3A0; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-12 03:41:24.906
+host = http://localhost:8091/Admin/about/about.aspx?lang=1
+description = System.IndexOutOfRangeException: F_EnKeywords
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispEnInfoDAL.GetEnInfoByLang(Int32 Lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispEnInfoDAL.cs:行号 33
+   在 Eisp.BLL.EispEnInfoBLL.GetEnInfoByLang(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispEnInfoBLL.cs:行号 32
+   在 Eisp.Web.Admin.About.About.EnInfoBind(String lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 55
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 27
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=46X4X; CKFinder_Path=Images%3A%2F%3A0; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+

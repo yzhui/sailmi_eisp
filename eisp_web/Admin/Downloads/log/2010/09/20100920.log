@@ -1,0 +1,85 @@
+[log]
+type = 0
+time = 2010-09-20 23:04:49.296
+host = http://localhost:8091/Admin/Downloads/DownloadAdmin.aspx?lang=2
+description = System.IndexOutOfRangeException: F_FileTitle
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispDownloadsDAL.GetDownloadsList(Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispDownloadsDAL.cs:行号 160
+   在 Eisp.BLL.EispDownloadsBLL.GetDownloadsList(Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispDownloadsBLL.cs:行号 60
+   在 Eisp.Web.Admin.Downloads.DownloadAdmin.DownloadsBind(Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx.cs:行号 26
+   在 Eisp.Web.Admin.Downloads.DownloadAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-09-20 23:12:51.250
+host = http://localhost:8091/Admin/Downloads/DownloadAdmin.aspx?lang=2
+description = System.Data.OleDb.OleDbException: 标准表达式中数据类型不匹配。
+   在 Eisp.Common.AccessorDB.ExecuteScalar(String sql, OleDbParameter[] parameters) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 91
+   在 Eisp.Common.AccessorDB.ExecuteScalar(String sql) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 97
+   在 Eisp.DAL.EispDownloadsDAL.GetRecordCountByLang(Int32 lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispDownloadsDAL.cs:行号 202
+   在 Eisp.BLL.EispDownloadsBLL.GetRecordCountByLang(Int32 lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispDownloadsBLL.cs:行号 79
+   在 Eisp.Web.Admin.Downloads.DownloadAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-09-20 23:26:27.515
+host = http://localhost:8091/Admin/Downloads/DownloadAdmin.aspx?lang=2
+description = System.Web.HttpException: DataBinding:“Eisp.Entity.DownloadsModel”不包含名为“F_City”的属性。
+   在 System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   在 System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   在 System.Web.UI.DataBinder.Eval(Object container, String expression)
+   在 System.Web.UI.TemplateControl.Eval(String expression)
+   在 ASP.admin_downloads_downloadadmin_aspx.__DataBind__control8(Object sender, EventArgs e) 位置 e:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx:行号 45
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 Eisp.Web.Admin.Downloads.DownloadAdmin.DownloadsBind(Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx.cs:行号 28
+   在 Eisp.Web.Admin.Downloads.DownloadAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Downloads\DownloadAdmin.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

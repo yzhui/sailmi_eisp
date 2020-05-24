@@ -1,0 +1,22 @@
+[log]
+type = 0
+time = 2010-09-20 23:42:41.406
+host = http://localhost:8091/ProductList.aspx
+description = System.Data.OleDb.OleDbException: Microsoft Jet 数据库引擎找不到输入表或查询 'T_ProPic'。 确定它是否存在，以及它的名称的拼写是否正确。
+   在 Eisp.Common.AccessorDB.ExecuteScalar(String sql, OleDbParameter[] parameters) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 91
+   在 Eisp.DAL.EispProPicDAL.GetProPicByID(Int32 proid, Int32 Colorid) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProPicDAL.cs:行号 167
+   在 Eisp.BLL.EispProPicBLL.GetProPicByID(Int32 proid, Int32 Colorid) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProPicBLL.cs:行号 52
+   在 Eisp.Web.ProductList.GetPicID(Int32 proid, Int32 colorid) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 156
+   在 Eisp.Web.ProductList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 142
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 78
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Files%3A%2F%3A0; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

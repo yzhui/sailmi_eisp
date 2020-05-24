@@ -1,0 +1,196 @@
+[log]
+type = 0
+time = 2010-10-10 11:22:21.015
+host = http://localhost:8091/ProductList.aspx
+description = System.FormatException: 该字符串未被识别为有效的布尔值。
+   在 System.Boolean.Parse(String value)
+   在 System.Convert.ToBoolean(String value)
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 44
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=4D4D4; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 11:37:32.281
+host = http://localhost:8091/ProductList.aspx
+description = System.Exception: 无记录123,124,1241230
+   在 Eisp.BLL.EispProBLL.GetListPageNoByClassIDByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid, Int32 provider) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 142
+   在 Eisp.Web.ProductList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 109
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 62
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=4D4D4; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 11:42:23.453
+host = http://localhost:8091/ProductList.aspx
+description = System.Exception: 无记录123,124,0
+   在 Eisp.BLL.EispProBLL.GetListPageNoByClassIDByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid, Int32 provider) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 142
+   在 Eisp.Web.ProductList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 109
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 62
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=4D4D4; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 11:43:44.515
+host = http://localhost:8091/ProductList.aspx
+description = System.Exception: 无记录select top 30 * from (select top 1 * from T_Product where  F_ProClassID in(0) And F_IsProvider=0 order by ProID asc)  order by ProID desc
+   在 Eisp.DAL.EispProDAL.GetListPageNoByClassID(Int32 number, Int32 pagesize, Int32 classid, Int32 provider) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProDAL.cs:行号 319
+   在 Eisp.BLL.EispProBLL.GetListPageNoByClassIDByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid, Int32 provider) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 141
+   在 Eisp.Web.ProductList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 109
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 62
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=4D4D4; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 15:43:27.656
+host = http://localhost:8091/ProductList.aspx?isprovider=&classid=124
+description = System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\副本 ProductList.aspx.cs:行号 42
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=2Z8HJ; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 15:49:16.218
+host = http://localhost:8091/ProductList.aspx?isprovider=&classid=124
+description = System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\副本 ProductList.aspx.cs:行号 42
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=2Z8HJ; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 15:50:13.375
+host = http://localhost:8091/ProductList.aspx?isprovider=&classid=124
+description = System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\副本 ProductList.aspx.cs:行号 42
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=2Z8HJ; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 15:50:34.640
+host = http://localhost:8091/ProductList.aspx?isprovider=&classid=124
+description = System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 42
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=2Z8HJ; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 17:47:16.984
+host = http://localhost:8091/NewsDetail.aspx?id=91
+description = System.ArgumentNullException: 值不能为空。
+参数名: input
+   在 System.Text.RegularExpressions.Regex.Replace(String input, String replacement)
+   在 Eisp.Common.Utility.VerifyTool.DeleteScript(String str) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\Utility\VerifyTool.cs:行号 291
+   在 Eisp.Web.NewsDetail.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\NewsDetail.aspx.cs:行号 39
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=RRV80; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Files%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-10 17:49:55.781
+host = http://localhost:8091/NewsDetail.aspx?id=91
+description = System.Exception: select t1.ID,t1.F_Title,t1.F_Content,t1.F_Date,t1.F_Location,t1.F_ParentID,t1.F_Keywords,t2.F_ClassName from T_News t1,T_NewsClass t2 where t1.F_ParentID=t2.ID And t1.ID=?
+   在 Eisp.DAL.EispNewsDAL.GetNewsByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispNewsDAL.cs:行号 95
+   在 Eisp.BLL.EispNewsBLL.GetNewsByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispNewsBLL.cs:行号 52
+   在 Eisp.Web.NewsDetail.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\NewsDetail.aspx.cs:行号 35
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=sii2odrinx0zqzamdboknkuf; CheckCode=RRV80; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Files%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

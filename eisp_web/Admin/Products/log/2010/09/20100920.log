@@ -1,0 +1,63 @@
+[log]
+type = 0
+time = 2010-09-20 16:45:29.984
+host = http://localhost:8091/Admin/products/productadmin.aspx?lang=1
+description = System.Data.OleDb.OleDbException: Microsoft Jet 数据库引擎找不到输入表或查询 'T_ProPic'。 确定它是否存在，以及它的名称的拼写是否正确。
+   在 Eisp.Common.AccessorDB.ExecuteScalar(String sql, OleDbParameter[] parameters) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 91
+   在 Eisp.Common.AccessorDB.ExecuteScalar(String sql) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 97
+   在 Eisp.DAL.EispProPicDAL.GetRecordCount(Int32 proid) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProPicDAL.cs:行号 281
+   在 Eisp.BLL.EispProPicBLL.GetRecordCount(Int32 proid) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProPicBLL.cs:行号 86
+   在 Eisp.Web.Admin.Products.ProductAdmin.GetProPicCount(Int32 proid) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 143
+   在 ASP.admin_products_productadmin_aspx.__DataBind__control15(Object sender, EventArgs e) 位置 e:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx:行号 71
+   在 System.Web.UI.Control.OnDataBinding(EventArgs e)
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.Control.DataBindChildren()
+   在 System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   在 System.Web.UI.Control.DataBind()
+   在 System.Web.UI.WebControls.GridView.CreateRow(Int32 rowIndex, Int32 dataSourceIndex, DataControlRowType rowType, DataControlRowState rowState, Boolean dataBind, Object dataItem, DataControlField[] fields, TableRowCollection rows, PagedDataSource pagedDataSource)
+   在 System.Web.UI.WebControls.GridView.CreateChildControls(IEnumerable dataSource, Boolean dataBinding)
+   在 System.Web.UI.WebControls.CompositeDataBoundControl.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.GridView.PerformDataBinding(IEnumerable data)
+   在 System.Web.UI.WebControls.DataBoundControl.OnDataSourceViewSelectCallback(IEnumerable data)
+   在 System.Web.UI.DataSourceView.Select(DataSourceSelectArguments arguments, DataSourceViewSelectCallback callback)
+   在 System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   在 System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   在 System.Web.UI.WebControls.GridView.DataBind()
+   在 Eisp.Web.Admin.Products.ProductAdmin.ProductBind(Int32 n, Int32 p) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 61
+   在 Eisp.Web.Admin.Products.ProductAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 24
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 76
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-09-20 16:55:16.375
+host = http://localhost:8091/Admin/products/productadmin.aspx?lang=1
+description = System.Data.OleDb.OleDbException: 标准表达式中数据类型不匹配。
+   在 Eisp.Common.AccessorDB.ExecuteReader(String sql) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 191
+   在 Eisp.DAL.EispProDAL.GetProListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProDAL.cs:行号 217
+   在 Eisp.BLL.EispProBLL.GetProListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 74
+   在 Eisp.Web.Admin.Products.ProductAdmin.ProductBind(Int32 n, Int32 p) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 57
+   在 Eisp.Web.Admin.Products.ProductAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 24
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

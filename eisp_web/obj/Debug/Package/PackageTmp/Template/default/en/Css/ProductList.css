@@ -1,0 +1,173 @@
+﻿.Right
+{
+	width:775px;
+}
+.Profile
+{
+	width:765px;
+	min-height:500px;
+}
+.ProfileContent
+{
+	width:750px;
+	margin-left:5px;
+	color:#666666;
+}
+.ShowProductBox
+{
+	width:100%;
+	overflow:hidden;
+	border-width:0px;
+}
+.ProductBox
+{
+	margin-left:12px; margin-top:10px;
+}
+.Pager
+{
+	width:100%;
+	height:25px;
+	line-height:25px;
+	margin-bottom:5px;
+	margin-top:5px;
+	color:#666666;
+	text-align:center;
+}
+.PageNumber
+{
+	width:80px;
+	height:20px;
+	color:#333333;
+}
+.P_Number
+{
+	width:50px;
+	height:16px;
+	line-height:18px;
+	color:#CC3300; 
+	border:solid 1px #333333;
+	margin-left:5px;
+}
+.P_Number a
+{
+	color:#CC3300; 
+}
+.Number
+{
+	color:#CC3300; 
+}
+.NewsRow
+{
+	width:775px;
+	height:20px;
+	line-height:20px;
+	text-indent:2em;
+	font-family:宋体;
+}
+.NewsRowTitle
+{
+	width:500px;
+	float:left;
+}
+.NewsRowTime
+{
+	width:150px;
+	float:right;
+}
+.NewsRowTitle a
+{
+	color:#333333;
+}
+.Left .NewsBox
+{
+	width:100%;
+}
+.Left  .NewsBox .NewsRow
+{
+	width:100%;
+	overflow:hidden;
+	text-indent:1em;
+}
+
+
+
+.ConnectProductBox
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	overflow:hidden;
+	border:solid 1px #EEEEEE;
+	padding-bottom:5px;
+}
+.ConnectProductBox .ProductBox
+{
+	margin:10 auto 10 32;
+}
+.ConnectProductBox .ProductBox .ProductPhoto
+{
+	margin:5 auto 5 auto;
+}
+.ProductInfoBox,.ProductInfoPhotoBox
+{
+	width:385px;
+	height:auto;
+	overflow:hidden;
+	border:solid 1px #FFFFFF; 
+}
+
+.ProductInfoPhotoBox
+{
+	float:left;
+}
+.ProductInfoBox
+{
+	float:right;
+	vertical-align:top;
+}
+.ProductInfoPhoto
+{
+	width:350px; 
+	margin-left:18px ;
+}
+.ProductInfoField,.ProductInfoRow
+{
+	width:100%;
+	height:20px; 
+	line-height:20px;
+	text-indent:1em;
+	border-bottom:solid 1px #CCCCCC;
+	color:#FF9900;
+	font-weight:bold;
+	margin-top:10px;
+}
+.ProductInfoRow
+{
+	color:#666666;
+	border-width:0px;
+	margin-top:5px;
+	font-weight:normal;
+	height:50px; 
+	line-height:20px;
+}
+.ProductIntro
+{
+	width:100%;
+	height:auto;
+	clear:both;
+	line-height:20px;
+	color:#666666;
+	margin-bottom:10px;
+	margin-top:5px;
+	overflow:hidden; 
+	padding-bottom:20px;
+}
+.ShowDetail
+{
+    height:450px;
+    width:380px;
+    position:absolute;
+    overflow:hidden; 
+    background-color:#FFFFFF;
+    text-align:left;
+}

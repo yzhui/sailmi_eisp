@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Eisp.Web.Controls.biz.Guestbook" %>
+<%@ Register src="controls/Category.ascx" tagname="Category" tagprefix="uc1" %>
+<%@ Register src="controls/ContactBox.ascx" tagname="ContactBox" tagprefix="uc2" %>
+<%@ Register src="controls/NewsBox.ascx" tagname="NewsBox" tagprefix="uc3" %>
+<%@ Register src="controls/DownloadBox.ascx" tagname="DownloadBox" tagprefix="uc4" %>
+<%@ Register src="controls/FooterBox.ascx" tagname="FooterBox" tagprefix="uc5" %>
+<%@ Register src="controls/HeaderBox.ascx" tagname="HeaderBox" tagprefix="uc6" %>
+
+<html>
+<head id="Head1" runat="server">
+	<meta id="MetaDescription" name="DESCRIPTION" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <meta id="MetaKeywords" name="KEYWORDS" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <title><% =ENINFO_ENNAME %></title>
+    <link href="css/Css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ScriptAndStyel" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+<div class="WebBody">
+    <!--Header Start-->
+    <uc6:HeaderBox ID="headerbox1" runat="server" />
+    <!--Header End-->
+    <!--Main Start-->
+    <div class="Main">
+        <!--Left Start-->
+        <div class="Left">
+            <!--CategoryBox Start-->
+            <uc1:Category ID="Category1" runat="server" />
+            <!--CategoryBox End-->
+        </div>
+        <!--Left End-->
+        <!-- Middle Start-->
+        <div class="Middle">
+            <div class="GuestBook">
+                <div class="NewsTitle">Advise Online</div>
+               <div class="ShowProductBox">
+                   <div style=" text-align:left;margin-left:50px; margin-top:10px; color:#666666;" ><font color='red'><asp:Label 
+                           ID="ErroStr" runat="server" Text=""></asp:Label>
+                       </font></div>
+                   <form action="GuestBook.aspx" method="post" name="frm1" id="frm1">
+                        <input type="hidden" name="hint_1001" value="Add Advise Success！" />
+                        <input type="hidden" name="hint_9001" value="Add Advise Failed，Validate Code Error！" />
+                         <!--中间-->
+                        <div class="right" style=" width:600px;">
+                                    <!--公司简介-->
+                            <div class="sports">
+                                <div class="right_title" style=" width:500; background-image:url(images/message_cote.gif);"></div>
+                                <div style=" text-align:left;margin-left:50px; margin-top:10px; color:#666666;" >Name:<input type="text" id="txtName" name="txtName" value="" /></div>
+                                <div style=" text-align:left;margin-left:50px; margin-top:10px;color:#666666;"> Contact:<input type="text" id="txtWay" name="txtWay" value="" /></div>
+                                <div style=" text-align:left; margin-left:50px; margin-top:10px;color:#666666;">Content:<textarea style="width: 350px; height: 220px" id="txtContent" name="txtContent" ></textarea></div>
+                                <div style=" margin-top:5px; height:22px; line-height:22px;"><div style=" float:left; margin-left:80px; margin-right:10px;">Validate  Code：<input type="text" id="txtcode" name="txtcode" style=" border-width:1px; border-color:Green; width:50px; line-height:22PX; height:22px; border-style:solid;" /></div>
+                                <div style=" float:left;margin-right:10px;"><img src="admin/CheckCode.aspx" onclick="this.src=this.src+'?'" alt="click change image" /></div><div style=" float:left;margin-right:10px;">
+                                <input type="submit" value="Submit Your Advise" onclick="return CheckBook();" height=22 />
+                                <input type="hidden" id="op" name="op" value="add" />
+                                </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </form>
+                </div>
+                    <!--ShowNewsBox End-->
+                 <script language="javascript" type="text/javascript">
+
+                     function CheckBook() {
+
+                         var t_name = document.getElementById("txtName");
+                         var t_way = document.getElementById("txtWay");
+                         var t_content = document.getElementById("txtContent");
+                         var t_code = document.getElementById("txtcode");
+                         if (t_name.value.length == 0) {
+                             alert("姓名不能为空！");
+                             t_name.focus();
+                             return false;
+                         }
+
+                         if (t_way.value.length == 0) {
+                             alert("联系方式不能为空！");
+                             t_way.focus();
+                             return false;
+                         }
+
+                         if (t_content.value.length == 0) {
+                             alert("留言内容不能为空！");
+                             t_content.focus();
+                             return false;
+                         }
+
+                         if (t_content.value.length > 200) {
+                             alert("留言内容字数不能大于200！");
+                             //t_content.focus();
+                             //toEnd(t_content.value);
+                             return false;
+                         }
+
+                         if (t_code.value.length == 0) {
+                             alert("请填写验证码，区分大小写！");
+                             t_code.focus();
+                             return false;
+                         }
+
+                     }
+
+
+                     function AltScript(str, dw) {
+
+                         alert(str);
+                         if (dw != "" || dw != null) {
+                             document.getElementById(dw).focus();
+                         }
+
+                     }
+            </script>
+            </div>
+        </div>
+        <!--Middle End-->
+        <!--Right Start-->
+        <div class="Right">
+            <uc2:ContactBox ID="ContactBox1" runat="server" />
+            <uc3:NewsBox ID="NewsBox1" runat="server" />
+            <uc4:DownloadBox ID="DownloadBox1" runat="server" />
+        </div>
+        <!--Right End-->
+    </div>
+    <!--Main End-->
+    <div class="Footer">
+         <uc5:FooterBox ID="FooterBox2" runat="server" />
+    </div>
+</div>
+</body>
+
+</html>
+

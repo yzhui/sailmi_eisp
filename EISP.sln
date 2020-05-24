@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_biz", "eisp_biz\eisp_biz.csproj", "{43ECA5D8-17E9-470F-840C-C8D3E10535BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_common", "eisp_common\eisp_common.csproj", "{8F118105-AA9C-4D2F-B2BD-E735CCACD655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_dao", "eisp_dao\eisp_dao.csproj", "{D019B542-C3AE-42A5-B036-52FEF2744467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_entity", "eisp_entity\eisp_entity.csproj", "{4EFF648D-B39D-4BF6-868C-2C63C7EB2CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_web", "eisp_web\eisp_web.csproj", "{AD118FD7-8351-442D-94A0-33E6F4DAC355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eisp_basepage", "eisp_basepage\eisp_basepage.csproj", "{64E40B58-7DF9-4748-8F7F-087CDA8C93F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetPager", "aspnetpager\AspNetPager.csproj", "{B1F16029-B778-4A05-9C10-15C779375CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43ECA5D8-17E9-470F-840C-C8D3E10535BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ECA5D8-17E9-470F-840C-C8D3E10535BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ECA5D8-17E9-470F-840C-C8D3E10535BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ECA5D8-17E9-470F-840C-C8D3E10535BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F118105-AA9C-4D2F-B2BD-E735CCACD655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F118105-AA9C-4D2F-B2BD-E735CCACD655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F118105-AA9C-4D2F-B2BD-E735CCACD655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F118105-AA9C-4D2F-B2BD-E735CCACD655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D019B542-C3AE-42A5-B036-52FEF2744467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D019B542-C3AE-42A5-B036-52FEF2744467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D019B542-C3AE-42A5-B036-52FEF2744467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D019B542-C3AE-42A5-B036-52FEF2744467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFF648D-B39D-4BF6-868C-2C63C7EB2CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFF648D-B39D-4BF6-868C-2C63C7EB2CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFF648D-B39D-4BF6-868C-2C63C7EB2CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFF648D-B39D-4BF6-868C-2C63C7EB2CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD118FD7-8351-442D-94A0-33E6F4DAC355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD118FD7-8351-442D-94A0-33E6F4DAC355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD118FD7-8351-442D-94A0-33E6F4DAC355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD118FD7-8351-442D-94A0-33E6F4DAC355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E40B58-7DF9-4748-8F7F-087CDA8C93F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E40B58-7DF9-4748-8F7F-087CDA8C93F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E40B58-7DF9-4748-8F7F-087CDA8C93F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E40B58-7DF9-4748-8F7F-087CDA8C93F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F16029-B778-4A05-9C10-15C779375CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F16029-B778-4A05-9C10-15C779375CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F16029-B778-4A05-9C10-15C779375CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F16029-B778-4A05-9C10-15C779375CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,230 @@
+[log]
+type = 0
+time = 2010-09-11 00:02:16.031
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=BJTP2; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:03:37.859
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:08:25.781
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:09:10.140
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:10:11.937
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:10:56.984
+host = http://localhost:8091/Admin/about/about.aspx?id=2
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:10:58.453
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:16:03.640
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:17:47.515
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+
+[log]
+type = 0
+time = 2010-09-11 00:22:50.031
+host = http://localhost:8091/Admin/about/about.aspx?id=1
+description = System.IndexOutOfRangeException: F_Titile
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispSysInfoDAL.GetSysInfoByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispSysInfoDAL.cs:行号 32
+   在 Eisp.BLL.EispSysInfoBLL.GetSysInfoByID(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispSysInfoBLL.cs:行号 42
+   在 Eisp.Web.Admin.About.About.SysInfoBind(String id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 21
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 67
+resource = 
+method = GET
+postdata = didn't record
+cookie = ASP.NET_SessionId=hk5njh45dhu44s55ghvomtu3; CheckCode=B8804; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0; CKFinder_Path=Images%3A%2F%3A0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; MathPlayer 2.10d; QQDownload 661; .NET CLR 1.1.4322; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 2.0.50727)
+

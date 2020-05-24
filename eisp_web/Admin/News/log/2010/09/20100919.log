@@ -1,0 +1,21 @@
+[log]
+type = 0
+time = 2010-09-19 20:31:55.192
+host = http://localhost:8091/Admin/News/NewsAdmin.aspx?lang=1
+description = System.Data.OleDb.OleDbException: 标准表达式中数据类型不匹配。
+   在 Eisp.Common.AccessorDB.ExecuteReader(String sql) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\AccessorDB.cs:行号 191
+   在 Eisp.DAL.EispNewsDAL.GetArticleListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispNewsDAL.cs:行号 189
+   在 Eisp.BLL.EispNewsBLL.GetArticleListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispNewsBLL.cs:行号 75
+   在 Eisp.Web.Admin.New.NewAdmin.BindNews(Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\News\NewsAdmin.aspx.cs:行号 34
+   在 Eisp.Web.Admin.New.NewAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\News\NewsAdmin.aspx.cs:行号 23
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 76
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=d4sqlxav14jfxlmpqsocjq45; CheckCode=4F4LZ; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

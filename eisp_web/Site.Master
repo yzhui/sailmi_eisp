@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Eisp.Web.Controls.Site1" %>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<meta id="MetaDescription" name="DESCRIPTION" content="新业晟喷雾喷雾净化科技公司 - 喷嘴,工业喷嘴,喷雾喷嘴,脱硫除尘喷嘴,通用金属喷嘴,窄角/广角喷嘴,雾化喷嘴,螺旋喷嘴,清洗瓶罐喷嘴,快拆喷嘴,夹扣喷嘴,吹风喷嘴,塑胶喷嘴,316SS喷嘴,黄铜喷嘴,扇形喷嘴,实心锥喷嘴" />
+<meta id="MetaKeywords" name="KEYWORDS" content="空气喷嘴,雾化喷嘴,用于各行业的喷嘴,喷雾控制,喷雾分析,喷嘴制造,干燥喷嘴,加湿喷嘴,高压喷嘴,除鳞喷嘴,喷枪,螺旋喷嘴,工业喷嘴,喷雾喷嘴,脱硫除尘喷嘴,专业的喷嘴生产厂家,生产各种工业喷嘴,塑胶喷嘴,金属喷嘴,陶瓷喷嘴。" />
+    <title>新业晟喷雾净化科技有限公司</title>
+    <link href="../Css/Css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ScriptAndStyel" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+<div class="WebBody">
+    <!--Header Start-->
+        <div class="Header">
+        </div>
+    <div class="Menu"><a target="_blank" href="Index.aspx" style=" margin-left:50px;">首页</a> <a target="_blank" href="Profile.aspx">公司简介</a> <a target="_blank" href="ProductList.aspx"> 产品中心</a> <a target="_blank" href="News.aspx"> 新闻动态</a> <a target="_blank" href="Industry.aspx"> 行业应用</a> <a target="_blank" href="Downloads.aspx"> 资料下载</a><a target="_blank" href="guestbook.aspx"> 在线留言</a> <a target="_blank" href="Contact.aspx"> 联系我们</a></div>
+    <!--Header End-->
+    <!--Main Start-->
+    <asp:ContentPlaceHolder ID="Main" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--Main End-->
+    <div class="Footer">
+        <div class="FooterTitle"></div>
+        <div class="FooterRow"><a target="_blank" href="../Index.aspx">首页</a><a target="_blank" href="../Profile.aspx">公司简介</a><a target="_blank" href="../GuestBook.aspx">投诉建议</a><a target="_blank" href="../Contact.aspx">联系方式</a></div>
+        <div class="FooterRow">版权所有&#169 2009       <span style=" margin-left:20px;">新业晟喷雾净化科技有限公司</span></div>
+        <div class="FooterRow">地址：广东省东莞市长安镇厦边工业区</div>
+        <div class="Link"><span style="color:#CC3300;">友情链接:</span>
+        <%=link%></div>
+    </div>
+</div>
+</body>
+
+</html>
+

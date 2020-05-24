@@ -1,0 +1,88 @@
+我们以ckfinder_ie.js来开始研究. 该文件存放在core/js目录下. 打开发现是压缩过的. 我们将代码格式化一下,有利于更好的分析. 点这里下载格式化后的ckfinder_ie文件.
+
+经过一翻艰苦的测试, 我发现这个”讨厌的信息” 是由该行代码生成:
+
+   1. if ( (1==(dK.indexOf(ab.bW.substr(1,1)) % 5)&amp;amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;amp;window.top[qC+'\143\141\x74\x69\157\x6E'][qF+'\163\x74'].toLowerCase()!=ab.eo)   
+   2.      || ab.bW.substr(3,1)!=dK.substr(((dK.indexOf(ab.bW.substr(0,1))+dK.indexOf(ab.bW.substr(2,1)))*9) % (dK.length-1),1)   
+   3.     ) {   
+   4. en.call(window,qo);   
+   5. };  
+
+if ( (1==(dK.indexOf(ab.bW.substr(1,1)) % 5)&amp;amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;amp;window.top[qC+'\143\141\x74\x69\157\x6E'][qF+'\163\x74'].toLowerCase()!=ab.eo)
+       || ab.bW.substr(3,1)!=dK.substr(((dK.indexOf(ab.bW.substr(0,1))+dK.indexOf(ab.bW.substr(2,1)))*9) % (dK.length-1),1)
+      ) {
+ en.call(window,qo);
+};
+
+直接删除该部分代码, 该信息就不会出现了. 但我们 需要继续追踪它的原理.
+
+搜索 en和qo 我们发现了下列代码:
+
+   1. var qE='\145';   
+   2. var en=window[qE+'\166\x61\x6C'];   
+   3. var qo='\145\x46\56\160\141\162\x65\156\x74\x4E\157\x64\x65\x2E\x70\x61\x72\145\156\164\116\x6F\144\145\x2E\151\x6E\163\x65\x72\164\122\x6F\167\x28\x33\51\x2E\151\156\x73\x65\x72\x74\x43\145\154\154\50\x2D\61\x29\56\x69\x6E\x6E\145\x72\110\124\115\114';   
+   4. qo+='\75\x27\x3C\144\x69\166\x20\163\x74\x79\x6C\145\75\x22\x74\145\170\x74\55\x61\154\151\x67\156\x3A\40\143\145\156\x74\x65\x72\73\40\146\157\x6E\x74\x2D\x73\151\172\x65\x3A\x20\61\x36\160\170\x3B\x20\143\x6F\154\157\162\x3A\x20\x52\x65\x64\x3B\40\x70\141\x64\x64\x69\156\147\72\40\61\60\160\x78\73\40\x66\x6F\156\x74\x2D\x77\145\151\147\x68\164\x3A\40\142\157\x6C\x64\x22\76\x54\150\x69\163\x20\x69\x73\40\x74\150\145\x20\144\145\x6D\157\40\166\145\x72\163\x69\x6F\x6E\40\x6F\146\40\103\113\106\151\x6E\x64\145\x72\x2E\40\74\x61\x20\x68\162\145\x66\x3D\x22\x68\x74\164\x70\72\x2F\57\x77\167\x77\56\143\153\x66\x69\156\x64\x65\x72\56\x63\x6F\155\42\40\164\141\162\x67\x65\164\x3D\42\x5F\x62\x6C\x61\156\x6B\x22\40\163\164\171\x6C\145\75\42\x63\x6F\x6C\x6F\x72\72\40\102\154\x75\x65\42\x3E\103\x6C\151\143\x6B\x20\150\145\162\145\40\x74\157\40\x76\x69\x73\x69\x74\x20\x6F\165\162\x20\x77\x65\x62\40\163\151\164\145\74\57\141\76\x2E\40\x3C\151\x6E\160\x75\x74\40\x74\x79\160\x65\x3D\x22\142\x75\x74\x74\x6F\x6E\42\40\x76\141\154\x75\145\x3D\x22\x48\151\x64\145\x20\x4D\x65\x73\x73\x61\147\x65\x22\40\157\x6E\143\x6C\x69\x63\x6B\x3D\42\164\150\151\x73\56\160\x61\x72\145\x6E\164\x4E\157\144\145\x2E\x70\x61\162\x65\x6E\x74\x4E\x6F\x64\x65\56\x73\x74\x79\154\145\x2E\x64\x69\163\160\x6C\x61\x79\75\134\x27\156\157\156\x65\134\x27\73\x22\x20\x2F\x3E\74\x2F\144\x69\166\76\x27\73';   
+   5. en.call(window,'\x76\x61\162\40\145\106\73');  
+
+var qE='\145';
+var en=window[qE+'\166\x61\x6C'];
+var qo='\145\x46\56\160\141\162\x65\156\x74\x4E\157\x64\x65\x2E\x70\x61\x72\145\156\164\116\x6F\144\145\x2E\151\x6E\163\x65\x72\164\122\x6F\167\x28\x33\51\x2E\151\156\x73\x65\x72\x74\x43\145\154\154\50\x2D\61\x29\56\x69\x6E\x6E\145\x72\110\124\115\114';
+qo+='\75\x27\x3C\144\x69\166\x20\163\x74\x79\x6C\145\75\x22\x74\145\170\x74\55\x61\154\151\x67\156\x3A\40\143\145\156\x74\x65\x72\73\40\146\157\x6E\x74\x2D\x73\151\172\x65\x3A\x20\61\x36\160\170\x3B\x20\143\x6F\154\157\162\x3A\x20\x52\x65\x64\x3B\40\x70\141\x64\x64\x69\156\147\72\40\61\60\160\x78\73\40\x66\x6F\156\x74\x2D\x77\145\151\147\x68\164\x3A\40\142\157\x6C\x64\x22\76\x54\150\x69\163\x20\x69\x73\40\x74\150\145\x20\144\145\x6D\157\40\166\145\x72\163\x69\x6F\x6E\40\x6F\146\40\103\113\106\151\x6E\x64\145\x72\x2E\40\74\x61\x20\x68\162\145\x66\x3D\x22\x68\x74\164\x70\72\x2F\57\x77\167\x77\56\143\153\x66\x69\156\x64\x65\x72\56\x63\x6F\155\42\40\164\141\162\x67\x65\164\x3D\42\x5F\x62\x6C\x61\156\x6B\x22\40\163\164\171\x6C\145\75\42\x63\x6F\x6C\x6F\x72\72\40\102\154\x75\x65\42\x3E\103\x6C\151\143\x6B\x20\150\145\162\145\40\x74\157\40\x76\x69\x73\x69\x74\x20\x6F\165\162\x20\x77\x65\x62\40\163\151\164\145\74\57\141\76\x2E\40\x3C\151\x6E\160\x75\x74\40\x74\x79\160\x65\x3D\x22\142\x75\x74\x74\x6F\x6E\42\40\x76\141\154\x75\145\x3D\x22\x48\151\x64\145\x20\x4D\x65\x73\x73\x61\147\x65\x22\40\157\x6E\143\x6C\x69\x63\x6B\x3D\42\164\150\151\x73\56\160\x61\x72\145\x6E\164\x4E\157\144\145\x2E\x70\x61\162\x65\x6E\x74\x4E\x6F\x64\x65\56\x73\x74\x79\154\145\x2E\x64\x69\163\160\x6C\x61\x79\75\134\x27\156\157\156\x65\134\x27\73\x22\x20\x2F\x3E\74\x2F\144\x69\166\76\x27\73';
+en.call(window,'\x76\x61\162\40\145\106\73');
+
+发现都是16进制的,javascript是可以直接解析16进制字符的,翻译后发现
+qo = ‘eF.parentNode.parentNode.insertRow(3).insertCell(-1).innerHTML=’
+<div style=”padding: 10px; text-align: center; font-size: 16px; color: Red; font-weight: bold;“>
+This is the demo version of CKFinder.
+<a style=”color: Blue;“ target=”_blank“ href=”http://www.ckfinder.com“>Click here to visit our web site</a>. <input type=”button“ onclick=”this.parentNode.parentNode.style.display=\’none\’;“ value=”Hide Message“/></div>
+‘; ‘
+而 var en=window[qE+'\166\x61\x6C'];   等同与 var en = window['eval'];
+而 en.call(window,’\x76\x61\162\40\145\106\73′); 等同与 windor['eval'].call(window, ‘var eF; ‘);
+而 en.call(window,qo); 等同于 windor['eval'].call(window, qo);
+其实它其实就是拐弯抹角地执行了2句:
+var eF;
+eval(qo);
+
+我们在来分析下它是怎么知道使用用户没有通过验证,而显示出提示信息的呢?
+通过查找得到下列关键代码:
+  
+
+   1. var qC='\x6C\157';   
+   2. var qF='\150\x6F';   
+   3. var dK='';   
+   4. for (var code=49;code<58;code++) dK+=String.fromCharCode(code);   
+   5. for (code=65;code<91;code++){   
+   6. if (code==73||code==79) continue;   
+   7. dK+=String.fromCharCode(code);   
+   8. };   
+   9.   
+  10. if ( (1==(dK.indexOf(ab.bW.substr(1,1)) % 5)&amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;window.top[qC+'\143\141\x74\x69\157\x6E'][qF+'\163\x74'].toLowerCase()!=ab.eo)   
+  11.      || ab.bW.substr(3,1)!=dK.substr(((dK.indexOf(ab.bW.substr(0,1))+dK.indexOf(ab.bW.substr(2,1)))*9) % (dK.length-1),1)   
+  12.     ) {   
+  13. en.call(window,qo);   
+  14. };  
+
+var qC='\x6C\157';
+var qF='\150\x6F';
+var dK='';
+for (var code=49;code<58;code++) dK+=String.fromCharCode(code);
+for (code=65;code<91;code++){
+ if (code==73||code==79) continue;
+ dK+=String.fromCharCode(code);
+};
+
+if ( (1==(dK.indexOf(ab.bW.substr(1,1)) % 5)&amp;amp;amp;amp;amp;amp;amp;amp;&amp;amp;amp;amp;amp;amp;amp;amp;window.top[qC+'\143\141\x74\x69\157\x6E'][qF+'\163\x74'].toLowerCase()!=ab.eo)
+       || ab.bW.substr(3,1)!=dK.substr(((dK.indexOf(ab.bW.substr(0,1))+dK.indexOf(ab.bW.substr(2,1)))*9) % (dK.length-1),1)
+      ) {
+ en.call(window,qo);
+};
+
+同上理翻译后得:
+var dK = ‘123456789ABCDEFGHJKLMNPQRSTUVWXYZ ‘;
+if ( (1==(dK.indexOf(ab.bW.substr(1,1)) % 5) && window.top['location']['host'].toLowerCase()!=ab.eo)
+    || ab.bW.substr(3,1)!=dK.substr(((dK.indexOf(ab.bW.substr(0,1))+dK.indexOf(ab.bW.substr(2,1)))*9) % (dK.length-1),1)
+   ) {
+en.call(window,qo);
+};
+
+可见它是通过 变量 ab.bW 和ab.eo 来验证使用用户身份的.

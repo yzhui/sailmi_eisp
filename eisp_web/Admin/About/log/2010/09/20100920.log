@@ -1,0 +1,18 @@
+[log]
+type = 0
+time = 2010-09-20 18:01:38.765
+host = http://localhost:8091/Admin/about/about.aspx?lang=2
+description = System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Eisp.Web.Admin.About.About.EnInfoBind(Int32 lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 49
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Images%3A%2F%3A1; ASP.NET_SessionId=cgc2sd55dljeid553r0sws55; CheckCode=4B8XT; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

@@ -1,0 +1,46 @@
+[log]
+type = 0
+time = 2010-10-14 15:55:24.265
+host = http://localhost:8091/admin/products/productadmin.aspx?lang=1
+description = System.IndexOutOfRangeException: F_ExtClass
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispProDAL.GetProListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProDAL.cs:行号 260
+   在 Eisp.BLL.EispProBLL.GetProListPageNoByLang(Int32 lang, Int32 number, Int32 pagesize) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 74
+   在 Eisp.Web.Admin.Products.ProductAdmin.ProductBind(Int32 n, Int32 p) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 57
+   在 Eisp.Web.Admin.Products.ProductAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\ProductAdmin.aspx.cs:行号 24
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 74
+resource = 
+method = GET
+postdata = didn't record
+cookie = CKFinder_Path=Images%3A%2F%3A0; ASP.NET_SessionId=g2zpum45u0zssveohmznu5fc; CheckCode=2406Z; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-14 15:56:20.093
+host = http://localhost:8091/admin/products/productedit.aspx?id=163
+description = System.IndexOutOfRangeException: F_ExtClass
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispProDAL.GetProByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProDAL.cs:行号 156
+   在 Eisp.BLL.EispProBLL.GetProByID(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 62
+   在 Eisp.Web.Admin.Products.productedit.ProBind(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\productedit.aspx.cs:行号 143
+   在 Eisp.Web.Admin.Products.productedit.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\Products\productedit.aspx.cs:行号 29
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 74
+resource = 
+method = GET
+postdata = didn't record
+cookie = CKFinder_Path=Images%3A%2F%3A0; ASP.NET_SessionId=g2zpum45u0zssveohmznu5fc; CheckCode=2406Z; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

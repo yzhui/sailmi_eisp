@@ -1,0 +1,9 @@
+E:\个人\企业网站\代码\dao\obj\Debug\ResolveAssemblyReference.cache
+E:\个人\企业网站\代码\dao\obj\Debug\Colo.DAL.pdb
+E:\个人\企业网站\代码\dao\bin\Debug\Colo.DAL.dll
+E:\个人\企业网站\代码\dao\bin\Debug\Colo.DAL.pdb
+E:\个人\企业网站\代码\dao\bin\Debug\Colo.Entity.dll
+E:\个人\企业网站\代码\dao\bin\Debug\Web.PageBase.dll
+E:\个人\企业网站\代码\dao\bin\Debug\Colo.Entity.pdb
+E:\个人\企业网站\代码\dao\bin\Debug\Web.PageBase.pdb
+E:\个人\企业网站\代码\dao\obj\Debug\Colo.DAL.dll

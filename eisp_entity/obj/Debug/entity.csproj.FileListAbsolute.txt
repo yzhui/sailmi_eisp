@@ -1,0 +1,5 @@
+E:\个人\企业网站\代码\entity\bin\Debug\Colo.Entity.dll
+E:\个人\企业网站\代码\entity\bin\Debug\Colo.Entity.pdb
+E:\个人\企业网站\代码\entity\obj\Debug\ResolveAssemblyReference.cache
+E:\个人\企业网站\代码\entity\obj\Debug\Colo.Entity.dll
+E:\个人\企业网站\代码\entity\obj\Debug\Colo.Entity.pdb

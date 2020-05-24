@@ -1,0 +1,21 @@
+[log]
+type = 0
+time = 2009-08-27 00:49:26.705
+host = http://localhost:1096/admin/products/productadmin.aspx
+description = System.Data.OleDb.OleDbException: 该特定字段 'F_Sort' 可以参考 SQL 语句中 FROM 子句列表中的多个表。
+   在 Web.PageBase.AccessorDB.ExecuteReader(String sql) 位置 F:\完成的项目\喷嘴源码\penzui\公共层\AccessorDB.cs:行号 191
+   在 Colo.DAL.ColoProDAL.GetProListPageNo(Int32 number, Int32 pagesize) 位置 E:\working\喷嘴\喷嘴2009827\喷嘴源码\喷嘴源码\penzui\penzui\数据层\ColoProDAL.cs:行号 211
+   在 Colo.BLL.ColoProBLL.GetProListPageNo(Int32 number, Int32 pagesize) 位置 E:\working\喷嘴\喷嘴2009827\喷嘴源码\喷嘴源码\penzui\penzui\逻辑层\ColoProBLL.cs:行号 72
+   在 Colo.Web.admin.Products.ProductAdmin.ProductBind(Int32 n, Int32 p) 位置 E:\working\喷嘴\喷嘴2009827\喷嘴源码\喷嘴源码\penzui\penzui\展示层\admin\Products\ProductAdmin.aspx.cs:行号 57
+   在 Colo.Web.admin.Products.ProductAdmin.Page_Load(Object sender, EventArgs e) 位置 E:\working\喷嘴\喷嘴2009827\喷嘴源码\喷嘴源码\penzui\penzui\展示层\admin\Products\ProductAdmin.aspx.cs:行号 24
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Web.PageBase.CommonPageBase.OnLoad(EventArgs e) 位置 F:\完成的项目\喷嘴源码\penzui\公共层\CommonPageBase.cs:行号 69
+resource = 
+method = GET
+postdata = didn't record
+cookie = CheckCode=PXF6D; Colo=sessionname=mygood&pass=c3485927608ed221a66e6d324afde9d0&au=0
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; QQDownload 551; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; CIBA; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+

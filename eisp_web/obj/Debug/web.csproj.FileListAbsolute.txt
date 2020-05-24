@@ -1,0 +1,13 @@
+E:\个人\企业网站\代码\web\obj\Debug\ResolveAssemblyReference.cache
+E:\个人\企业网站\代码\web\obj\Debug\Colo.Web.pdb
+E:\个人\企业网站\代码\web\bin\Colo.Web.dll
+E:\个人\企业网站\代码\web\bin\Colo.Web.pdb
+E:\个人\企业网站\代码\web\bin\Colo.BLL.dll
+E:\个人\企业网站\代码\web\bin\Colo.Entity.dll
+E:\个人\企业网站\代码\web\bin\Web.PageBase.dll
+E:\个人\企业网站\代码\web\bin\Colo.DAL.dll
+E:\个人\企业网站\代码\web\bin\Colo.DAL.pdb
+E:\个人\企业网站\代码\web\bin\Colo.BLL.pdb
+E:\个人\企业网站\代码\web\bin\Colo.Entity.pdb
+E:\个人\企业网站\代码\web\bin\Web.PageBase.pdb
+E:\个人\企业网站\代码\web\obj\Debug\Colo.Web.dll

@@ -1,0 +1,21 @@
+[log]
+type = 0
+time = 2009-07-09 18:22:02.640
+host = http://localhost:1096/News.aspx
+description = System.Data.OleDb.OleDbException: FROM 子句语法错误。
+   在 Web.PageBase.AccessorDB.ExecuteScalar(String sql, OleDbParameter[] parameters) 位置 E:\working\WEBpz\WEB\penzui\公共层\AccessorDB.cs:行号 91
+   在 Web.PageBase.AccessorDB.ExecuteScalar(String sql) 位置 E:\working\WEBpz\WEB\penzui\公共层\AccessorDB.cs:行号 97
+   在 Colo.DAL.ColoNewDAL.GetRecordCountByClassid(Int32 classid) 位置 E:\working\WEBpz\WEB\penzui\penzui\数据层\ColoNewDAL.cs:行号 176
+   在 Colo.BLL.ColoNewBLL.GetRecordCountByClassid(Int32 classid) 位置 E:\working\WEBpz\WEB\penzui\penzui\逻辑层\ColoNewBLL.cs:行号 77
+   在 Colo.Web.News.Page_Load(Object sender, EventArgs e) 位置 E:\working\WEBpz\WEB\penzui\penzui\展示层\News.aspx.cs:行号 43
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Web.PageBase.CommonPageBase.OnLoad(EventArgs e) 位置 E:\working\WEBpz\WEB\penzui\公共层\CommonPageBase.cs:行号 69
+resource = 
+method = GET
+postdata = didn't record
+cookie = 
+ip = 127.0.0.1
+agent = Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; QQDownload 551; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; CIBA)
+

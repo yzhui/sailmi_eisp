@@ -1,0 +1,23 @@
+[log]
+type = 0
+time = 2010-10-14 11:15:50.046
+host = http://localhost:8091/admin/about/about.aspx?lang=1
+description = System.IndexOutOfRangeException: F_EnOnlineContact
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispEnInfoDAL.GetEnInfoByLang(Int32 Lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispEnInfoDAL.cs:行号 37
+   在 Eisp.BLL.EispEnInfoBLL.GetEnInfoByLang(Int32 id) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispEnInfoBLL.cs:行号 26
+   在 Eisp.Web.Admin.About.About.EnInfoBind(Int32 lang) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 48
+   在 Eisp.Web.Admin.About.About.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\Admin\About\About.aspx.cs:行号 19
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 74
+resource = 
+method = GET
+postdata = didn't record
+cookie = CKFinder_Path=Images%3A%2F%3A0; ASP.NET_SessionId=g2zpum45u0zssveohmznu5fc; CheckCode=2406Z; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

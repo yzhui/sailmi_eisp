@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="Eisp.Web.Controls.biz.OrderDetail" %>
+<%@ Register src="controls/Category.ascx" tagname="Category" tagprefix="uc1" %>
+<%@ Register src="controls/ContactBox.ascx" tagname="ContactBox" tagprefix="uc2" %>
+<%@ Register src="controls/NewsBox.ascx" tagname="NewsBox" tagprefix="uc3" %>
+<%@ Register src="controls/DownloadBox.ascx" tagname="DownloadBox" tagprefix="uc4" %>
+<%@ Register src="controls/FooterBox.ascx" tagname="FooterBox" tagprefix="uc5" %>
+<%@ Register src="controls/HeaderBox.ascx" tagname="HeaderBox" tagprefix="uc6" %>
+
+<html>
+<head id="Head1" runat="server">
+	<meta id="MetaDescription" name="DESCRIPTION" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <meta id="MetaKeywords" name="KEYWORDS" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <title><% =ENINFO_ENNAME %></title>
+    <link href="css/Css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ScriptAndStyel" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+<div class="WebBody">
+    <!--Header Start-->
+    <uc6:HeaderBox ID="headerbox1" runat="server" />
+    <!--Header End-->
+    <!--Main Start-->
+    <div class="Main">
+        <!--Left Start-->
+        <div class="Left">
+            <!--CategoryBox Start-->
+            <uc1:Category ID="Category1"  productcateurl="OrderList" isprovider="1" runat="server" />
+            <!--CategoryBox End-->
+        </div>
+        
+        <!--Left End-->
+        <!-- Middle Start-->
+        <div class="Middle">
+            <div class="ProductIntro">
+                <div class="SourceCategory">Product Center>><%=classname %>>><%=proname%></div>
+                <!--ShowProductBox Start-->
+                <div class="ShowProductBox">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="ProductInfoPhotoBox">
+                                    <img class="ProductInfoPhoto" width="200" height="200" src="<%=propic %>" onload="zoom(event,this);" />
+                                </div>
+                           </td>
+                           <td valign="top">
+                                <div class="ProductInfoBox">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <div id="ProductInfoField" class="ProductInfoField">Product Name：</div>
+                                            </td>
+                                            <td>
+                                                <div class="ProductInfoRow"><%=proname%></div>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="ProductInfoField">Product Size：</div>
+                                            </td>
+                                            <td>
+                                                <div class="ProductInfoRow"><%=prosizetable %></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="ProductInfoField">Product Model：</div>
+                                            </td>
+                                            <td>
+                                                <div class="ProductInfoRow"><%=prosize%></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="ProductInfoField">Product Apply：</div>
+                                            </td>
+                                            <td>
+                                                <div class="ProductInfoRow"><%=proshuxing%></div>
+                                            </td>
+                                        </tr>
+                                    </table>     
+                                </div>
+                           
+                           </td>
+                        </tr>
+                    </table>
+                    <!--ShowProductBox End-->
+                    <div class="ProductInfoField">Product Detail Info:</div>
+                    <div class="ShowDetail">
+                      <%=procontent %>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Middle End-->
+        <!--Right Start-->
+        <div class="Right">
+            <uc2:ContactBox ID="ContactBox1" runat="server" />
+            <uc3:NewsBox ID="NewsBox1" runat="server" />
+            <uc4:DownloadBox ID="DownloadBox1" runat="server" />
+        </div>
+        <!--Right End-->
+    </div>
+    <!--Main End-->
+    <div class="Footer">
+         <uc5:FooterBox ID="FooterBox2" runat="server" />
+    </div>
+</div>
+</body>
+
+</html>
+

@@ -1,0 +1,18 @@
+[log]
+type = 0
+time = 2010-09-29 16:56:29.953
+host = http://localhost:8091/ProductList.aspx
+description = System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Eisp.Web.ProductList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 126
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 78
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 72
+resource = 
+method = GET
+postdata = didn't record
+cookie = QQ_IPAddress=%u5317%u4EAC%u5E02%2C; CKFinder_Path=Files%3A%2F%3A0; PHPSESSID=b7bf798386fffab6874c61af7e6276a4; SQLiteManager_currentTheme=green; SQLiteManager_currentLangue=13; rtime=1; ltime=1285578157899; cnzz_eid=47856233-1285464140-http%3A//localhost%3A7001/install/index.php%3Faction%3Dadminsetup%26cndata; ftlocalhost=0; ASP.NET_SessionId=wkgtfm55vjiuc055fymljp45
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

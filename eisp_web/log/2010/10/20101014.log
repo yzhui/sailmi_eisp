@@ -1,0 +1,41 @@
+[log]
+type = 0
+time = 2010-10-14 10:59:52.187
+host = http://localhost:8091/ProductList.aspx
+description = System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Eisp.Web.ProductList.GetClassName(Int32 classid, Int32 id, Boolean bFind, String& sl) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 87
+   在 Eisp.Web.ProductList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\ProductList.aspx.cs:行号 45
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 74
+resource = 
+method = GET
+postdata = didn't record
+cookie = CKFinder_Path=Images%3A%2F%3A0; ASP.NET_SessionId=g2zpum45u0zssveohmznu5fc; CheckCode=2406Z; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+
+[log]
+type = 0
+time = 2010-10-14 16:44:26.562
+host = http://localhost:8091/OrderList.aspx
+description = System.IndexOutOfRangeException: F_ExtClass
+   在 System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   在 System.Data.OleDb.OleDbDataReader.GetOrdinal(String name)
+   在 System.Data.OleDb.OleDbDataReader.get_Item(String name)
+   在 Eisp.DAL.EispProDAL.GetListPageNoByClassID(Int32 number, Int32 pagesize, String classid, Int32 provider, Int32 mainclass) 位置 E:\个人\电子商务\企业网站\代码\eisp_dao\EispProDAL.cs:行号 336
+   在 Eisp.BLL.EispProBLL.GetListPageNoByClassIDByLang(Int32 lang, Int32 number, Int32 pagesize, Int32 classid, Int32 provider) 位置 E:\个人\电子商务\企业网站\代码\eisp_biz\EispProBLL.cs:行号 137
+   在 Eisp.Web.OrderList.ProTopBind(Int32 number, Int32 pagesize, Int32 classid, Int32 recordcount) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\OrderList.aspx.cs:行号 102
+   在 Eisp.Web.OrderList.Page_Load(Object sender, EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_web\OrderList.aspx.cs:行号 64
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 Eisp.Common.CommonPage.OnLoad(EventArgs e) 位置 E:\个人\电子商务\企业网站\代码\eisp_common\CommonPage.cs:行号 74
+resource = 
+method = GET
+postdata = didn't record
+cookie = CKFinder_Path=Images%3A%2F%3A0; ASP.NET_SessionId=g2zpum45u0zssveohmznu5fc; CheckCode=2406Z; Colo=sessionname=admin&pass=7fef6171469e80d32c0559f88b377245&au=0
+ip = 127.0.0.1
+agent = Mozilla/5.0 (Windows; U; Windows NT 5.2; zh-CN; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3 (.NET CLR 3.5.30729) QQDownload/1.7
+

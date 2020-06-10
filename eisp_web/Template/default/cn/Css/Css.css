@@ -1,15 +1,15 @@
-锘縝ody
+body
 {
 	margin-top:0px;
 	text-align:center;
-	font-family:Arial 瀹嬩綋;
+	font-family:Arial 宋体;
 	font-size:12px;
 }
 
 td
 {
 	margin-top:0px;
-	font-family:Arial 瀹嬩綋;
+	font-family:Arial 宋体;
 	font-size:12px;
 }
 
@@ -37,7 +37,7 @@ img{ border-width:0px;}
 .Menu a
 {
 	color:#FFFFFF;
-	font-family:瀹嬩綋;
+	font-family:宋体;
 	text-decoration:none;
 	font-size:14px;
 	margin-left:10px;	
@@ -82,7 +82,7 @@ img{ border-width:0px;}
 	height:180;
 	text-align:left;  
 	border:1px solid #EEEEEE;
-	font-family:瀹嬩綋;
+	font-family:宋体;
 }
 .ContacTitle,.NewsTitle,.DownloadTitle
 {
@@ -184,7 +184,7 @@ img{ border-width:0px;}
 }
 .Advertise
 {
-	width:570px;
+	#width:800px;
 	border:1px solid #EEEEEE;
 }
 
@@ -285,7 +285,7 @@ img{ border-width:0px;}
 	line-height:20px;
 	text-align:right;
 	margin-right:10px;
-	font-family:瀹嬩綋;
+	font-family:宋体;
 }
 .ViewMore a
 {
@@ -298,7 +298,7 @@ img{ border-width:0px;}
 	line-height:20px;
 	margin-top:5px;
 	color:#666666;
-	font-family:瀹嬩綋;
+	font-family:宋体;
 }
 .FooterRow a
 {
@@ -350,7 +350,7 @@ img{ border-width:0px;}
 	 font-weight:normal;
 	 margin-left:10px; 
 	 text-decoration:none; 
-	 font-family:瀹嬩綋;
+	 font-family:宋体;
 }
 .NewsRow a
 {
@@ -362,7 +362,7 @@ img{ border-width:0px;}
 	height:20px;
 	line-height:20px;
 	margin:5 0 5 0;
-	font-family:瀹嬩綋;
+	font-family:宋体;
 	color:#666666;
 	text-align:left;
 }

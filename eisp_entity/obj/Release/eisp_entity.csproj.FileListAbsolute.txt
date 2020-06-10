@@ -1,0 +1,6 @@
+D:\workspace\sailmi_eisp\eisp_entity\bin\Release\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_entity\bin\Release\Eisp.Entity.pdb
+D:\workspace\sailmi_eisp\eisp_entity\obj\Release\eisp_entity.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_entity\obj\Release\eisp_entity.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_entity\obj\Release\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_entity\obj\Release\Eisp.Entity.pdb

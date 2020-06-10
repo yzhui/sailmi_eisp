@@ -1,0 +1,108 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="Eisp.Web.Controls.biz.Index" %>
+<%@ Register src="controls/Category.ascx" tagname="Category" tagprefix="uc1" %>
+<%@ Register src="controls/ContactBox.ascx" tagname="ContactBox" tagprefix="uc2" %>
+<%@ Register src="controls/NewsBox.ascx" tagname="NewsBox" tagprefix="uc3" %>
+<%@ Register src="controls/DownloadBox.ascx" tagname="DownloadBox" tagprefix="uc4" %>
+<%@ Register src="controls/FooterBox.ascx" tagname="FooterBox" tagprefix="uc5" %>
+<%@ Register src="controls/HeaderBox.ascx" tagname="HeaderBox" tagprefix="uc6" %>
+<%@ Register src="controls/ProductBox.ascx" tagname="ProductBox" tagprefix="uc7" %>
+<html>
+<head id="Head1" runat="server">
+	<meta id="MetaDescription" name="DESCRIPTION" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <meta id="MetaKeywords" name="KEYWORDS" content=" <%=ENINFO_ENKEYWORDS %>" />
+    <title><% =ENINFO_ENNAME %></title>
+    <link href="css/Css.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="ScriptAndStyel" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+<div class="WebBody">
+    <!--Header Start-->
+    <uc6:HeaderBox ID="headerbox1" runat="server" />
+    <!--Header End-->
+    <!--Main Start-->
+    <div class="Main">
+        <!--Left Start-->
+        <div class="Left">
+            <!--CategoryBox Start-->
+            <uc1:Category ID="Category1" runat="server" />
+            <!--CategoryBox End-->
+            
+        </div>
+        <!--Left End-->
+        <div width="780px">
+            <div class="Advertise">
+                <img width="770px" src="<%=getTemplateRoot(lang) %>images/au_main.jpg" />
+            </div>
+        <div>
+        <!--Middle Start-->
+        <div class="Middle">
+            <div class="Profile">
+                <div id="ProfileTitle" class="ProfileTitle">
+                    <table width="100%">
+                        <tr>
+                            <td align="left">
+                                &nbsp;<b>About AoYou Lighting</b>
+                            </td>
+                            <td align="right">
+                                <a target="_blank" class="ViewMore1"  href="Profile.aspx">Detail>>></a>
+                            </td>
+                        </tr>
+                    </table>
+                
+                </div>
+                <div id="ProfileContent" class="ProfileContent">
+                    
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <%=ENINFO_ENDESC%>
+                            </td>
+                        </tr>
+                    </table>
+	            </div>
+            </div>
+            <div class="ShowProductContainer">
+                <div class="ShowProductTitle">
+                    <table width="100%">
+                        <tr>
+                            <td align="left">
+                                &nbsp;<b> Commend Product</b>
+                            </td>
+                            <td align="right">
+                                <a class="ViewMore1" target="_blank" href="ProductList.aspx">More>>></a>
+                            </td>
+                        </tr>
+                    </table>
+               </div>
+                <!--ShowProductBox Start-->
+                <div class="ShowProductBox">
+                    <!--ProductBox Start-->
+                    <uc7:ProductBox ID="ProductBox1" runat="server" />
+                    <!--ProductBox End-->
+                </div>
+                <!--ShowProductBox End-->
+            </div>
+        </div>
+        <!--Middle End-->
+        <!--Right Start-->
+        <div class="Right">
+            <uc2:ContactBox ID="ContactBox1" runat="server" />
+            <uc3:NewsBox ID="NewsBox1" runat="server" />
+            <uc4:DownloadBox ID="DownloadBox1" runat="server" />
+        </div>
+        <!--Right End-->
+	</div>
+     </div>
+    </div>
+    <script src="JS/ChangeFontColor.js" type="text/javascript"></script>
+    <!--Main End-->
+    <div class="Footer">
+         <uc5:FooterBox ID="FooterBox2" runat="server" />
+    </div>
+</div>
+</body>
+
+</html>
+

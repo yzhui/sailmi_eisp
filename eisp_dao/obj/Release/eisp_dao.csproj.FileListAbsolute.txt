@@ -1,0 +1,11 @@
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.DAL.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.DAL.pdb
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.Common.pdb
+D:\workspace\sailmi_eisp\eisp_dao\bin\Release\Eisp.Entity.pdb
+D:\workspace\sailmi_eisp\eisp_dao\obj\Release\eisp_dao.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_dao\obj\Release\eisp_dao.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_dao\obj\Release\eisp_dao.csproj.CopyComplete
+D:\workspace\sailmi_eisp\eisp_dao\obj\Release\Eisp.DAL.dll
+D:\workspace\sailmi_eisp\eisp_dao\obj\Release\Eisp.DAL.pdb

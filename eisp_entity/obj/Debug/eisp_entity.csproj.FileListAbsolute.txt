@@ -12,3 +12,9 @@ E:\公司\宇帆科技\公司网站\代码\eisp_entity\bin\Debug\Eisp.Entity.dll
 E:\公司\宇帆科技\公司网站\代码\eisp_entity\bin\Debug\Eisp.Entity.pdb
 E:\公司\宇帆科技\公司网站\代码\eisp_entity\obj\Debug\Eisp.Entity.dll
 E:\公司\宇帆科技\公司网站\代码\eisp_entity\obj\Debug\Eisp.Entity.pdb
+D:\workspace\sailmi_eisp\eisp_entity\bin\Debug\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_entity\bin\Debug\Eisp.Entity.pdb
+D:\workspace\sailmi_eisp\eisp_entity\obj\Debug\eisp_entity.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_entity\obj\Debug\eisp_entity.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_entity\obj\Debug\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_entity\obj\Debug\Eisp.Entity.pdb

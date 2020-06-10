@@ -12,3 +12,9 @@ E:\公司\宇帆科技\公司网站\代码\eisp_common\bin\Debug\Eisp.Common.dll
 E:\公司\宇帆科技\公司网站\代码\eisp_common\bin\Debug\Eisp.Common.pdb
 E:\公司\宇帆科技\公司网站\代码\eisp_common\obj\Debug\Eisp.Common.dll
 E:\公司\宇帆科技\公司网站\代码\eisp_common\obj\Debug\Eisp.Common.pdb
+D:\workspace\sailmi_eisp\eisp_common\bin\Debug\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_common\bin\Debug\Eisp.Common.pdb
+D:\workspace\sailmi_eisp\eisp_common\obj\Debug\eisp_common.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_common\obj\Debug\eisp_common.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_common\obj\Debug\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_common\obj\Debug\Eisp.Common.pdb

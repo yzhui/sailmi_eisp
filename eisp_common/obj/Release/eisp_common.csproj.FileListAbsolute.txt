@@ -1,0 +1,6 @@
+D:\workspace\sailmi_eisp\eisp_common\bin\Release\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_common\bin\Release\Eisp.Common.pdb
+D:\workspace\sailmi_eisp\eisp_common\obj\Release\eisp_common.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_common\obj\Release\eisp_common.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_common\obj\Release\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_common\obj\Release\Eisp.Common.pdb

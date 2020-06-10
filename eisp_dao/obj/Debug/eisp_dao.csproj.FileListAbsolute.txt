@@ -25,3 +25,14 @@ E:\公司\宇帆科技\公司网站\代码\eisp_dao\bin\Debug\Eisp.Entity.pdb
 E:\公司\宇帆科技\公司网站\代码\eisp_dao\obj\Debug\eisp_dao.csprojResolveAssemblyReference.cache
 E:\公司\宇帆科技\公司网站\代码\eisp_dao\obj\Debug\Eisp.DAL.dll
 E:\公司\宇帆科技\公司网站\代码\eisp_dao\obj\Debug\Eisp.DAL.pdb
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.DAL.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.DAL.pdb
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.Common.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.Entity.dll
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.Common.pdb
+D:\workspace\sailmi_eisp\eisp_dao\bin\Debug\Eisp.Entity.pdb
+D:\workspace\sailmi_eisp\eisp_dao\obj\Debug\eisp_dao.csprojAssemblyReference.cache
+D:\workspace\sailmi_eisp\eisp_dao\obj\Debug\eisp_dao.csproj.CoreCompileInputs.cache
+D:\workspace\sailmi_eisp\eisp_dao\obj\Debug\eisp_dao.csproj.CopyComplete
+D:\workspace\sailmi_eisp\eisp_dao\obj\Debug\Eisp.DAL.dll
+D:\workspace\sailmi_eisp\eisp_dao\obj\Debug\Eisp.DAL.pdb
